@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:rgb(161, 44, 44);
+    color:rgb(247, 247, 157);
+}
+
+header {
+    background-color:darkblue;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color:rgb(235, 115, 72);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(235, 115, 72);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    color:darkorange;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.hero-text h1 span {
+    color:darkblue;
+    width: 90%;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color:darkorange;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn-secondary {
+    background-color:darkblue;
+    color:rgb(247, 247, 157);
+    border: 1px solid #ffa500;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius:50%;
+}
+aside{
+    float: right;
+}
+img{
+    height: 400px;
+    width: 600px;
+    margin-top: 100px;
+    margin-right: 120px;
+}
+p{
+    width: 170%;
+}
+footer{
+    background-color: darkblue;
+    color: rgb(235, 115, 72);
+    text-align: center;
+    font-size: large;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <h1 class="logo">PORTFOLIO</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">My Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <aside>
+        <img src="https://media.licdn.com/dms/image/C4D12AQFBYsUHR4f1_w/article-cover_image-shrink_600_2000/0/1638522232783?e=2147483647&v=beta&t=lscpuWLNxCcohD3HKdOc3al_kI8AJ8kvimbaHZyQQ0g">
+    </aside>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h2>Hello!</h2>
+                <h1>I'm <span>CHARLOTTE INFANTIA</span></h1>
+                <p>A Web Designer</p>
+                <p>who thrives on Web Development. With a background in HTML and CSS,my work focuses on creating attractive webpages and web aplications, where I blend creativity and technical expertise to deliver my knoweledge in HTML and CSS.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn">Hire Me</a>
+                    <a href="#" class="btn btn-secondary">My Works</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>&copy; 2024 Charlotte Infantia. All rights reserved.
+    </footer>
+</body>
+</html>
